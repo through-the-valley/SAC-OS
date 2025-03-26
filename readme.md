@@ -1,5 +1,4 @@
-## 关键包版本
-
+## package version
 1. gym                          0.18.3
 
 2. numpy                        1.24.3
@@ -10,10 +9,9 @@
 
 
 
-## 训练方法
+## How to train
 
-实例化算法类，需要传入相应训练参数。然后调用算法类的train方法即可
-
-list文件下下存储训练相关输出。model文件夹下存储训练完毕的模型
+To instantiate an algorithm class, you need to pass in the corresponding training parameters. Then call the train method of the algorithm class.
+The save path of the trainint results and the trained model is in algorithm classes which you can decide.
 
 
